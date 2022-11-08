@@ -1,1 +1,33 @@
 Multiple classes can be added to an element by listing them in the class attribute and separating them with a space.
+
+color rgb-rules: primary colors
+
+                 pure red 255
+                 pure green 255
+                 pure blue 255
+
+                 secondary colors:
+
+                 yellow = pure red + pure green
+                 cyan = pure green + pure blue
+                 magenta = pure red + pure blue
+
+                 tertiary colors:
+
+                 orange = pure red + green 127
+                 spring green = pure green + blue 127
+                 violet = red 127 + pure blue
+                 chartreuse green = red 127 + pure green
+                 azure = green 127 + pure blue
+                 rose = pure red + blue 127
+
+Complemantary colors standing next to each other can make text hard to read.
+
+Choose a dominant color for a site and a complemantary color to draw attention to a certain spot on a site
+
+The color stops in the linear-gradient function are 0%, 50% and 100% (in case of three colors) by default
+
+The gradientDirection is 180deg by default (top to bottom)
+
+DIV elements are block elements. When to block elements are next to each other then they'stack on each other. When we want them on the same line we have to change their display-property to inline-block.
+
